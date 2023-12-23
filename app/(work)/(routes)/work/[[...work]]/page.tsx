@@ -18,7 +18,7 @@ const WorkHeader = () => {
         Software Engineer. Designer At Heart.
       </h1>
       <p className="text-lg text-text animate-fadeIn opacity-0 delay-300">
-        I've been doing it all. I love to code but I love auto-layout more.
+        Ive been doing it all. I love to code but I love auto-layout more.
       </p>
     </div>
   );

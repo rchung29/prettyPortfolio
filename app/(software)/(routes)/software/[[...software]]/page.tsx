@@ -75,7 +75,7 @@ const ProjectsPage = () => {
   const GitRyan = {
     title: "GitRyan",
     subtitle:
-      "Github is boring. That's why I made GitRyan. Okay you got me, I was actually just bored and wanted to figure out how to host my own Git server.",
+      "Github is boring. Thats why I made GitRyan. Okay you got me, I was actually just bored and wanted to figure out how to host my own Git server.",
     technologies: [
       { name: "Python", category: "Language" },
       { name: "Django", category: "Framework" },
@@ -110,7 +110,7 @@ const ProjectsPage = () => {
       {
         title: "Streamify Website",
         subtitle:
-          "Built with create-react-app. Crazy how fast best practice changes isn't? See music details.",
+          "Built with create-react-app. Crazy how fast best practice changes isnt? See music details.",
         githubLink: "https://github.com/myusername/my-website",
         liveLink: "https://mywebsite.com",
       },
@@ -139,9 +139,8 @@ const ProjectsPage = () => {
     <div className="bg-main text-white min-h-screen">
       <div className="w-screen bg-blueRyan bg-opacity-20 py-2 px-6 text-center">
         <span className="text-xs text-blueRyan">
-          I've created my own git server! Click any link to view all of my
-          source code. Also, make an account and add your name to any of the
-          Readmes!
+          Ive created my own git server! Click any link to view all of my source
+          code. Also, make an account and add your name to any of the Readmes!
         </span>
       </div>
       <div className="">

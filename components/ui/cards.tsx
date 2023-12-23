@@ -32,7 +32,7 @@ const CardGroup = () => {
         <CardContent>
           <p className={`${azeretRegular.className} text-text`}>
             I build projects to test out new technologies and automate tasks
-            that I think are boring. That's what coding is for right?
+            that I think are boring. Thats what coding is for right?
           </p>
           <Image
             src="/software_img.svg"
