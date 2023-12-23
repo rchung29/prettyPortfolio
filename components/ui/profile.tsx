@@ -24,7 +24,7 @@ const Profile = () => {
             CS @ UVA. Software Developer. Designer.
           </p>
         </div>
-        <div className="flex h-5 items-center space-x-4 text-sm mt-6 animate-fadeIn opacity-0 delay-400">
+        <div className="flex flex-nowrap overflow-x-auto h-5 items-center space-x-4 text-sm mt-6 animate-fadeIn opacity-0 delay-400">
           <a
             href={"www.google.com"}
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
