@@ -37,7 +37,7 @@ interface ProjectSectionProps {
 }
 
 const TechnologyBadge: React.FC<TechnologyInfo> = ({ name, category }) => (
-  <Tooltip>
+  <Tooltip content={category}>
     <TooltipTrigger asChild>
       <span className="inline-block cursor-default bg-main hover:bg-blueRyan hover:border-white transition ease-in-out rounded-md border px-4 py-2 text-sm font-medium text-white mr-2 mb-2">
         {name}
