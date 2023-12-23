@@ -87,7 +87,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   </Card>
 );
 
-const DesignSection: React.FC<DesignSectionProps> = ({
+const DesignSection: React.FC<ProjectSectionProps> = ({
   title,
   subtitle,
   technologies,
