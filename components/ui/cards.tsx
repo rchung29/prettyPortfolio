@@ -22,7 +22,7 @@ const azeretMedium = Azeret_Mono({
 
 const CardGroup = () => {
   return (
-    <div className="flex flex-row justify-between space-x-14">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       <Card className="animate-fadeUp delay-900 opacity-0">
         <CardHeader>
           <CardTitle className={`${azeretMedium.className} text-3xl`}>
