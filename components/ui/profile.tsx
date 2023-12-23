@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 
 const Profile = () => {
   return (
-    <div className="flex flex-col items-start md:flex-row md:justify-between">
+    <div className="flex flex-col items-start md:flex-row md:justify-between mb-6">
       <div className="flex flex-col items-start mb-4 md:mb-0">
         <Image
           src="/me.png"
@@ -24,37 +24,37 @@ const Profile = () => {
             CS @ UVA. Software Developer. Designer.
           </p>
         </div>
-        <div className="flex flex-nowrap overflow-x-auto h-5 items-center space-x-4 text-sm mt-6 animate-fadeIn opacity-0 delay-400">
+        <div className="flex h-5 items-center space-x-4 text-sm mt-6 animate-fadeIn opacity-0 delay-700">
           <a
-            href={"www.google.com"}
+            href="www.google.com"
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
           >
             <Mail className="h-5"></Mail>
-            <span className="text-md">Email</span>
+            <span className="text-md hidden sm:inline-block">Email</span>
           </a>
           <Separator orientation="vertical" />
           <a
-            href={"www.google.com"}
+            href="www.google.com"
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
           >
             <FileCheck2 className="h-5"></FileCheck2>
-            <span className="text-md">Resume</span>
+            <span className="text-md hidden sm:inline-block">Resume</span>
           </a>
           <Separator orientation="vertical" />
           <a
-            href={"www.google.com"}
+            href="www.google.com"
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
           >
             <Linkedin className="h-5"></Linkedin>
-            <span className="text-md">LinkedIn</span>
+            <span className="text-md hidden sm:inline-block">LinkedIn</span>
           </a>
           <Separator orientation="vertical" />
           <a
-            href={"www.google.com"}
+            href="www.google.com"
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
           >
             <Dribbble className="h-5"></Dribbble>
-            <span className="text-md">Dribbble</span>
+            <span className="text-md hidden sm:inline-block">Dribbble</span>
           </a>
         </div>
       </div>
