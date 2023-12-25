@@ -42,7 +42,8 @@ const ProjectsPage = () => {
     technologies: [
       { name: "Javascript", category: "Language" },
       { name: "Python", category: "Language" },
-      { name: "NGINX", category: "Web Server" },
+      { name: "Gunicorn", category: "Web Server" },
+      { name: "NGINX", category: "Reverse Proxy" },
       { name: "Next.js", category: "Framework" },
       { name: "MongoDB", category: "Database" },
       { name: "FastAPI", category: "Framework" },
@@ -54,20 +55,20 @@ const ProjectsPage = () => {
         title: "PropEdge Website",
         subtitle:
           "Built a Next.js website to display and categorize the bets to place by most probable.",
-        githubLink: "https://github.com/myusername/my-website",
-        liveLink: "https://mywebsite.com",
+        githubLink: "https://gitryan.vercel.app/repos/sportsbook_frontend",
+        liveLink: "https://sportsbook-frontend-wh8r.vercel.app/",
       },
       {
         title: "GetProps API",
         subtitle:
           "FastAPI to retrieve and manage data from the MongoDB database.",
-        githubLink: "https://github.com/myusername/my-website",
+        githubLink: "https://gitryan.vercel.app/repos/getprops-api",
       },
       {
         title: "Sportsbook Data Script",
         subtitle:
           "Built a python script to retrieve the data from scraped private sports book APIs. Totally not unethical.",
-        githubLink: "https://github.com/myusername/my-website",
+        githubLink: "https://gitryan.vercel.app/repos/getprops",
       },
       // ... add more project objects here
     ],
@@ -81,6 +82,7 @@ const ProjectsPage = () => {
       { name: "Django", category: "Framework" },
       { name: "Flask", category: "Framework" },
       { name: "Gunicorn", category: "Web Server" },
+      { name: "NGINX", category: "Reverse Proxy" },
       { name: "GitPython", category: "Library" },
       { name: "Bootstrap", category: "Library" },
       { name: "Azure", category: "Hosting" },
@@ -89,9 +91,8 @@ const ProjectsPage = () => {
     projects: [
       {
         title: "GitRyan Website",
-        subtitle: "Add to any of the Readmes and say something funny!",
-        githubLink: "https://github.com/myusername/my-website",
-        liveLink: "https://mywebsite.com",
+        subtitle: "Yes, I spent 3 hours trying to fix 1 NGINX rule.",
+        liveLink: "https://gitryan.vercel.app/repos/getprops",
       },
     ],
   };
@@ -111,8 +112,8 @@ const ProjectsPage = () => {
         title: "Streamify Website",
         subtitle:
           "Built with create-react-app. Crazy how fast best practice changes isnt? See music details.",
-        githubLink: "https://github.com/myusername/my-website",
-        liveLink: "https://mywebsite.com",
+        githubLink: "https://gitryan.vercel.app/repos/streamify",
+        liveLink: "https://streamify-project.netlify.app/",
       },
     ],
   };
@@ -131,7 +132,7 @@ const ProjectsPage = () => {
         title: "Flutter App",
         subtitle:
           "Worked on it with Flutter, primarily for IOS. Scan barcodes for free. #Don’tPayForMyFitnessPal",
-        githubLink: "https://github.com/myusername/my-website",
+        githubLink: "https://gitryan.vercel.app/repos/freefitnesspal",
       },
     ],
   };
@@ -140,7 +141,7 @@ const ProjectsPage = () => {
       <div className="w-screen bg-blueRyan bg-opacity-20 py-2 px-6 text-center">
         <span className="text-xs text-blueRyan">
           Ive created my own git server! Click any link to view all of my source
-          code. Also, make an account and add your name to any of the Readmes!
+          code.
         </span>
       </div>
       <div className="">

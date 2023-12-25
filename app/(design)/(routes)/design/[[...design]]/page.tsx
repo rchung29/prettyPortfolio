@@ -46,13 +46,15 @@ const DesignPage = () => {
         title: "Dribbble Writeup",
         subtitle:
           "Full in-depth writeup behind the design. Make me dribbble famous!",
-        githubLink: "https://github.com/myusername/my-website",
+        githubLink:
+          "https://dribbble.com/shots/23120179-RoomMe-Mobile-App-Design",
       },
       {
         title: "Figma File",
         subtitle:
           "Figma file for comparison. Highlights for company privacy purposes.",
-        liveLink: "https://github.com/myusername/my-website",
+        liveLink:
+          "https://www.figma.com/file/e9vqikQZ7qHbh8O7Gigayd/RoomMe-Redesign?type=design&node-id=0%3A1&mode=design&t=YUbly2Vri5LKP2YM-1",
       },
     ],
   };
@@ -68,7 +70,8 @@ const DesignPage = () => {
       {
         title: "Figma File",
         subtitle: "Figma file for landing page design. Single page scroll.",
-        liveLink: "https://github.com/myusername/my-website",
+        liveLink:
+          "https://www.figma.com/file/S2ids1smk2U1O7zYOmPWiV/Pellucid-Wireframe?type=design&node-id=0%3A1&mode=design&t=OuFHtvpnZPPwDEKt-1",
       },
     ],
   };
@@ -82,12 +85,13 @@ const DesignPage = () => {
         title: "Dribbble Writeup",
         subtitle:
           "Decision write up and my thought process on designing high-converting landing pages.",
-        githubLink: "https://github.com/myusername/my-website",
+        githubLink: "https://dribbble.com/shots/23120409-OpenPay-Landing-Page",
       },
       {
         title: "Figma File",
         subtitle: "Color pallette and raw design file for website.",
-        liveLink: "https://github.com/myusername/my-website",
+        liveLink:
+          "https://www.figma.com/file/jkLalsTcu4aPqaGxuC2ZwH/Banking-web-App-UI-Kit?type=design&node-id=205%3A26&mode=design&t=FIhT2SgYTYGRxklr-1",
       },
     ],
   };
