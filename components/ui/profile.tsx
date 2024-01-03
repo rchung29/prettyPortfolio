@@ -1,5 +1,5 @@
 // components/Profile.tsx
-import Image from "next/image";
+import {Image, Link} from "next/image";
 import { Separator } from "./separator";
 import { Linkedin, Mail, FileCheck2, Dribbble } from "lucide-react";
 import StatusUpdates from "./status";
@@ -25,37 +25,37 @@ const Profile = () => {
           </p>
         </div>
         <div className="flex h-5 items-center space-x-4 text-sm mt-6 animate-fadeIn opacity-0 delay-700">
-          <a
-            href="www.google.com"
+          <Link
+            href= "mailto:rchung793@gmail.com"
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
           >
             <Mail className="h-5"></Mail>
             <span className="text-md hidden sm:inline-block">Email</span>
-          </a>
+          </Link>
           <Separator orientation="vertical" />
-          <a
-            href="www.google.com"
+          <Link
+            href="https://drive.google.com/file/d/1hEkHGCxlGo9oTFvwuoGF1kC4H5_UJw_e/view?usp=sharing"
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
           >
             <FileCheck2 className="h-5"></FileCheck2>
             <span className="text-md hidden sm:inline-block">Resume</span>
-          </a>
+          </Link>
           <Separator orientation="vertical" />
-          <a
-            href="www.google.com"
+          <Link
+            href="https://www.linkedin.com/in/rchung28/"
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
           >
             <Linkedin className="h-5"></Linkedin>
             <span className="text-md hidden sm:inline-block">LinkedIn</span>
-          </a>
+          </Link>
           <Separator orientation="vertical" />
-          <a
-            href="www.google.com"
+          <Link
+            href="https://dribbble.com/rchung28"
             className="flex items-center space-x-2 hover:text-white text-text transition-colors duration-200"
           >
             <Dribbble className="h-5"></Dribbble>
             <span className="text-md hidden sm:inline-block">Dribbble</span>
-          </a>
+          </Link>
         </div>
       </div>
       <StatusUpdates></StatusUpdates>
