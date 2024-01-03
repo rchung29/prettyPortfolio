@@ -1,9 +1,10 @@
 // components/Profile.tsx
-import {Image, Link} from "next/image";
+import Image from "next/image";
 import { Separator } from "./separator";
 import { Linkedin, Mail, FileCheck2, Dribbble } from "lucide-react";
 import StatusUpdates from "./status";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const Profile = () => {
   return (
