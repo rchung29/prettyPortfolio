@@ -23,7 +23,7 @@ const azeretMedium = Azeret_Mono({
 
 const WorkCardGroup = () => {
   return (
-    <div className="flex flex-nowrap space-x-14 overflow-x-auto w-full smooth-scroll scroll-snap-type scroll-snap-align py-3">
+    <div className="flex flex-nowrap space-x-14 overflow-x-auto scrollbar-thin scrollbar-thumb-zinc-800 scrollbar-track-zinc-900 w-full smooth-scroll scroll-snap-type scroll-snap-align pb-5">
       <Card className="animate-fadeUp delay-100 opacity-0 min-w-[400px]">
         <CardHeader>
           <CardTitle
