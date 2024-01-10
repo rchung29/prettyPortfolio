@@ -63,8 +63,7 @@ const CardGroup = () => {
         </CardHeader>
         <CardContent>
           <p className={`${azeretRegular.className} text-text`}>
-            I build projects to test out new technologies and automate tasks
-            that I think are boring. That’s what coding is for right.
+            I first started designing youtube banners. Now I design software so intricate that the developers cant make it look the same. I am the developer.
           </p>
           <Image
             src="/design_img.svg"
@@ -95,8 +94,7 @@ const CardGroup = () => {
         </CardHeader>
         <CardContent>
           <p className={`${azeretRegular.className} text-text`}>
-            I build projects to test out new technologies and automate tasks
-            that I think are boring. That’s what coding is for right.
+            I’ve worked 3 different jobs spanning across 2 summers and most of high school. I’ve been a designer, developer, and everything in between.
           </p>
           <Image
             src="/work_img.svg"
