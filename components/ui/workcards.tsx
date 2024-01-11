@@ -42,7 +42,7 @@ const WorkCardGroup = () => {
         </CardHeader>
         <CardContent>
           <ul className="text-sm font-medium text-white space-y-4">
-            <li>- Cum. GPA: 3.0, Computer Science GPA: 3.6</li>
+            <li>- Computer Science GPA: 3.7</li>
             <li>
               - CS 3130 Teaching Assistant: Provided one-on-one tutoring
               sessions for struggling students and assisted in leading labs for
